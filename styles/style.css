@@ -38,7 +38,7 @@
 }
 
 .partA {
-    width: 150px;
+    width: 174px;
     height: 52px;
     color: gray;
     font-size: 17px;
@@ -56,4 +56,41 @@
     color: aliceblue;
     font-size: 16px;
     font-weight: 700;
+}
+
+/* responsive */
+/* mobile */
+@media screen and (max-width: 576px) {
+    .section-A {
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        width: 100%;
+        height: 100%;
+        color: aliceblue;
+    }  
+    .sec-A-title {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 40px;
+        font-weight: 800px;
+    }
+    .sec-A-description {
+        width: 370px;
+        text-align: center;
+        padding-left: 10px;
+        font-size: 12px;
+        margin-top: 0px;
+        font-weight: 20px;
+    }
+    .sec-A-content {
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+        gap: 9px;
+        margin-top: 0px;
+        margin-left: 94px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+    }  
+    
 }

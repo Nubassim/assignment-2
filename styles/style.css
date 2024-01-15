@@ -1,0 +1,59 @@
+* {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+}
+
+.section-A {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    color: aliceblue;
+}
+
+.sec-A-title {
+    font-size: 64px;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 800px;
+}
+
+.sec-A-description {
+    width: 800px;
+    text-align: center;
+    padding-left: 200px;
+    font-size: 16px;
+    font-weight: 20;
+}
+
+.sec-A-content {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 30px;
+    margin-left: 145px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.partA {
+    width: 150px;
+    height: 52px;
+    color: gray;
+    font-size: 17px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 20px;
+}
+
+.button {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    width: 174px;
+    height: 52px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 700;
+}

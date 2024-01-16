@@ -141,9 +141,9 @@ nav a {
 }
 
 .sec-B-content {
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: 61 2q1 00;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -231,8 +231,18 @@ nav a {
     background: rgba(233, 68, 68, 0.05);
 }
 
-.section-E {
+.section-F {
+    width: 1170px;
+    height: 500px;
+    margin-left: 9%;
+    margin-top: 70px;
+}
 
+.sec-F-title {
+    text-align: center;
+}
+
+.section-E {
     display: flex;
     justify-content: space-between;
     gap: 11px;
@@ -300,8 +310,39 @@ nav a {
 }
 
 .news-img {
+    background: url('../Images/Rectangle\ 8\ \(1\).png');
     width: 672px;
     height: 422px;
+    position: relative;
+}
+
+.discount-img {
+    position: absolute;
+    width: 324px;
+    height: 130px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    margin-top: 250px;
+    margin-left: 270px;
+}
+
+.sec-E-a {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.sec-E-b {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 0px;
 }
 
 .footer {
@@ -413,7 +454,8 @@ nav a {
         flex-direction: column;
         width: 300px;
     }
-    .a{
+
+    .a {
         width: 500px;
     }
 
@@ -474,14 +516,14 @@ nav a {
         border-radius: 16px;
         margin-top: 600px;
         width: 500px;
-        height: 422px;
+        height: 802px;
         margin-left: 6%;
     }
 
     .sec-E-container {
         padding-left: 18px;
         padding-right: 10px;
-        width: 330px;
+        width: 370px;
         height: 422px;
         border-radius: 16px;
         border: 1px solid #FF5400;
@@ -533,15 +575,49 @@ nav a {
     }
 
     .news-img {
-        width: 358px;
-        height: 400px;
+        background: url('../Images/Rectangle\ 8\ \(1\).png');
+        width: 400px;
+        height: 4202px;
+        position: relative;
+    }
+    
+    .discount-img {
+        position: absolute;
+        width: 300px;
+        height: 130px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        margin-top: 250px;
+        margin-left: 100px;
+    }
+    
+    .sec-E-a {
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 0px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    
+    .sec-E-b {
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .sec-F{
+        background: url('../Images/Rectangle\ 12.png');
     }
 
     .footer {
         text-align: center;
         width: 400px;
         height: 502px;
-        margin-top: 400px;
+        margin-top: 100px;
         background: rgba(19, 19, 24, 0.05);
     }
 }

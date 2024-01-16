@@ -168,7 +168,7 @@ margin-bottom: 30px;
 }
 .section-D{
     width: 1170px;
-    height: 520px;
+    height: 900px;
     margin-left: 9%;
     margin-top: 100px;
     text-align: center;
@@ -183,7 +183,7 @@ margin-bottom: 30px;
     text-align: left;
     padding-left: 32px;
     padding-top: 32px;
-    width: 573px;
+    width: 509px;
     height: 284px;
     border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
@@ -193,7 +193,7 @@ background: rgba(251, 181, 99, 0.05);
     text-align: left;
     padding-left: 32px;
     padding-top: 32px;
-    width: 573px;
+    width: 509px;
     height: 284px;
     border-radius: 16px;
 border: 1px solid rgba(41, 206, 246, 0.20);
@@ -205,11 +205,23 @@ background: rgba(41, 206, 246, 0.05);
     padding-top: 32px;
     margin-left: 300px;
     margin-top: 15px;
-    width: 573px;
+    width: 509px;
     height: 284px;
     border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
+}
+.footer{
+    text-align: center;
+    width: 1440px;
+height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 90px;
 }
 /* responsive */
 /* mobile */
@@ -277,5 +289,58 @@ background: rgba(233, 68, 68, 0.05);
     .row{
         
         gap: 20px;
+    }
+    .section-D{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 520px;
+        margin-top: 600px;
+    }
+    .card{
+        width: 320px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 18px;
+        
+    }
+    .card-1{
+        text-align: left;
+        padding-left: 32px;
+        padding-top: 32px;
+        width: 300px;
+        height: auto;
+        border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    }
+    .card-2{
+        text-align: left;
+        padding-left: 32px;
+        padding-top: 32px;
+        width: 300px;
+        height: auto;
+        border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    }
+    .card-3{
+        text-align: left;
+        padding-left: 32px;
+        padding-top: 32px;
+        margin-left: 10px;
+        margin-top: 15px;
+        width: 300px;
+        height: auto;
+        border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    }
+    .footer{
+        text-align: center;
+        width: 400px;
+    height: 502px;
+    margin-top: 600px;
+        background: rgba(19, 19, 24, 0.05);
     }
 }

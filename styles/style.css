@@ -1,5 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap')
 * {
     font-family: "Mulish", sans-serif;
+    font-style: normal;
+} */
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -9,6 +17,7 @@
     width: 1170px;
     height: 500px;
     color: aliceblue;
+    margin-left: 9%;
 }
 
 .sec-A-title {
@@ -37,7 +46,7 @@
     background: rgba(255, 255, 255, 0.30);
 }
 
-.partA {
+.part {
     width: 174px;
     height: 52px;
     color: gray;
@@ -54,8 +63,35 @@
     width: 174px;
     height: 52px;
     color: aliceblue;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
+}
+
+/* main */
+.section-B {
+    display: flex;
+    width: 1170px;
+    height: 500px;
+    margin-left: 9%;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.partA {
+    width: 50%;
+}
+
+.sec-B-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.sec-B-content{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 /* responsive */
@@ -64,16 +100,20 @@
     .section-A {
         border-radius: 16px;
         background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+
         width: 100%;
-        height: 100%;
         color: aliceblue;
-    }  
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
     .sec-A-title {
         font-size: 30px;
         text-align: center;
         padding-top: 40px;
         font-weight: 800px;
     }
+
     .sec-A-description {
         width: 370px;
         text-align: center;
@@ -82,15 +122,16 @@
         margin-top: 0px;
         font-weight: 20px;
     }
+
     .sec-A-content {
         flex-direction: column;
         padding: 10px;
         align-items: center;
         gap: 9px;
-        margin-top: 0px;
+        margin-top: 20px;
         margin-left: 94px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
-    }  
-    
+    }
+
 }
